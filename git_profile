@@ -1,4 +1,16 @@
-# GIT diff format
-git config --global pretty.prettyFormat format:'%C(#f3f89d)%h %c(#418d61)%cd %C(reset)|%C(#F78972)%d %C(#9aedf1)%s'
-git config --global format.pretty prettyFormat
+# Colored output
+git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.interactive auto
+git config --global color.status auto
 
+# GIT log format
+git config --global pretty.my format:'%C(yellow)%h %C(reset) %cd %C(reset)|%C(red)%d %C(cyan)%s'
+git config --global format.pretty my
+
+# GIT user settings
+git config --global user.name "Polyanok Bogdan"
+git config --global user.email miner34006@gmail.com
+
+# Text editor settings
+git config --global core.editor sublime
