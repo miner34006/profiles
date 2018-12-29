@@ -1,0 +1,4 @@
+# GIT diff format
+git config --global pretty.prettyFormat format:'%C(#f3f89d)%h %c(#418d61)%cd %C(reset)|%C(#F78972)%d %C(#9aedf1)%s'
+git config --global format.pretty prettyFormat
+
