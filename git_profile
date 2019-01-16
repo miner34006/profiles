@@ -5,7 +5,7 @@ git config --global color.interactive auto
 git config --global color.status auto
 
 # GIT log format
-git config --global pretty.my format:'%C(yellow)%h %C(reset) %cd %C(reset)|%C(red)%d %C(cyan)%s'
+git config --global pretty.my format:%C(yellow)%h %C(reset) %cd %C(reset)|%C(red)%d %C(cyan)%s
 git config --global format.pretty my
 
 # GIT user settings
